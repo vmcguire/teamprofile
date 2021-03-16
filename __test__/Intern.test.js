@@ -1,7 +1,7 @@
 const Intern = require("../lib/Intern.js");
 
 test("creates an Intern", () => {
-  const intern = new Intern("Joe", 3, "joe@gmail.com", "UC Berkeley");
+  const intern = new Intern("Joe", "Intern", 3, "joe@gmail.com", "UC Berkeley");
 
   expect(intern.name).toEqual(expect.any(String));
   expect(intern.name.length).toBeGreaterThan(0);

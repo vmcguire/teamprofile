@@ -7,60 +7,107 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <title>Portfolio Demo</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
       <link href="https://fonts.googleapis.com/css?family=Public+Sans:300i,300,500&display=swap" rel="stylesheet">
+
       <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-      <header>
-        <div class="container flex-row justify-space-between align-center py-3">
-        <h1>My Team</h1>
-        </div>
+      <header class="col-12 bg-dark text-light sticky-top flex-column d-flex p-4 p-lg-3">
+        <h1 class="text-center">My Team</h1>
       </header>
 
-      <main class="container my-5">
-        
-    <h1>Name: TM name</h1>
-    <h2>Role: Manager</h2>
-    <h3>Employee ID: tm id</h3>
-    <h3>Email Address: tm email</h3>
-    <p>Office Number: tm office number</p>
-    <p class ="d-none"></p>
-    <p class ="d-none"></p>
+      <main class="container-fluid mt-5">
+        <div class="row">
+          <div class ="col-lg-12">
+            <div class ="mt-3 row col-12">
+              
+
+  <div class="col-md-3">
+    <div class="card bg-light text-white">
+      <div class="card-body">
+        <div class="card-header bg-danger">
+          <h2>
+            Victor McGuire
+          </h2>
+          <h3>
+          Manager
+          </h3>
+        </div>
+        <li class="list-item align-center disabled">
+          <p class="list-group-item card-text text-dark mt-1">ID: 1234</p>
+        </li>
+        <li class="list-item align-center disabled">
+          <a class="list-group-item card-text text-dark mt-1" href="mailto:victor.mcguire@gmail.com">Email: victor.mcguire@gmail.com</a>
+          </li>
+          <li class="list-item align-center disabled">
+    <p class="list-group-item mt-1 text-dark">Office Number: 510-332-6689</p>
+    </li>
+          
+          
+      </div>
+    </div>
+  </div>
     
-    <h1>Name: int1 name</h1>
-    <h2>Role: Intern</h2>
-    <h3>Employee ID: int 1 ID</h3>
-    <h3>Email Address: int1 email</h3>
-    <p class ="d-none"></p>
-    <p class ="d-none"></p>
-    <p>School: int1 school</p>
+
+  <div class="col-md-3">
+    <div class="card bg-light text-white">
+      <div class="card-body">
+        <div class="card-header bg-danger">
+          <h2>
+            Patrick
+          </h2>
+          <h3>
+          Intern
+          </h3>
+        </div>
+        <li class="list-item align-center disabled">
+          <p class="list-group-item card-text text-dark mt-1">ID: 5678</p>
+        </li>
+        <li class="list-item align-center disabled">
+          <a class="list-group-item card-text text-dark mt-1" href="mailto:Patrick@gmail.com">Email: Patrick@gmail.com</a>
+          </li>
+          
+          
+          <li class="list-item align-center disabled">
+    <p class="list-group-item mt-1 text-dark">School: DLS</p>
+    </li>
+      </div>
+    </div>
+  </div>
     
-    <h1>Name: eng1 name</h1>
-    <h2>Role: Engineer</h2>
-    <h3>Employee ID: eng1 ID</h3>
-    <h3>Email Address: eng1 email</h3>
-    <p class ="d-none"></p>
-    <p>Github Username: eng1 github</p>
-    <p class ="d-none"></p>
+
+  <div class="col-md-3">
+    <div class="card bg-light text-white">
+      <div class="card-body">
+        <div class="card-header bg-danger">
+          <h2>
+            Gemma
+          </h2>
+          <h3>
+          Engineer
+          </h3>
+        </div>
+        <li class="list-item align-center disabled">
+          <p class="list-group-item card-text text-dark mt-1">ID: 7890</p>
+        </li>
+        <li class="list-item align-center disabled">
+          <a class="list-group-item card-text text-dark mt-1" href="mailto:gemma@gmail.com">Email: gemma@gmail.com</a>
+          </li>
+          
+          <li class="list-item align-center disabled">
+    <a class="list-group-item mt-1 text-dark" href="http://www.github.com/vmcguire">Github Username:vmcguire</a>
+    </li>
+          
+      </div>
+    </div>
+  </div>
     
-    <h1>Name: int2 name</h1>
-    <h2>Role: Intern</h2>
-    <h3>Employee ID: int2 id</h3>
-    <h3>Email Address: int2 email</h3>
-    <p class ="d-none"></p>
-    <p class ="d-none"></p>
-    <p>School: int2 school</p>
-    
-    <h1>Name: eng2 name</h1>
-    <h2>Role: Engineer</h2>
-    <h3>Employee ID: eng2 id</h3>
-    <h3>Email Address: eng2 email</h3>
-    <p class ="d-none"></p>
-    <p>Github Username: eng2 github</p>
-    <p class ="d-none"></p>
-     
+            </div>
+          </div>
+        </div> 
       </main>
 
       <footer class="container text-center py-3">

@@ -3,6 +3,7 @@ const Manager = require("../lib/Manager.js");
 test("creates an manager", () => {
   const manager = new Manager(
     "ManagerName",
+    "Manager",
     4,
     "manager@gmail.com",
     "5103326689"
